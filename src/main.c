@@ -36,7 +36,7 @@ int main(void) {
                 puts("Invalid!");
                 break;
             }
-            if (code = create(name, pw1)) {
+            if ((code = create(name, pw1))) {
                 printf("Invalid! code: %d\n", code);
                 break;
             }
